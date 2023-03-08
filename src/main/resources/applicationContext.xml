@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+      <!--配置bean--> <!--通过标签的方式配置-->
+      <!--id:为bean取名字,方便后面取出   class:要放入IoC容器的实现类(对象)-->
+    <bean id="DaoImpl" class="com.Zezai.dao.impl.DaoImpl" />
+    <bean id="ServiceImpl" class="com.Zezai.service.impl.ServiceImpl">
+     <!--配置dao与service的关系-->
+        <!-- name表示实现类里的属性(Dao) ref表示真实要传入的bean的id[DaoImpl->com.Zezai.dao.impl.DaoImpl]-->
+        <property name="Dao" ref="DaoImpl"/>
+        <property name="number" value="10"/>
+    </bean>
+
+        </beans>
+
