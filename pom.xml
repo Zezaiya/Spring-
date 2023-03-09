@@ -27,10 +27,18 @@
       <scope>test</scope>
     </dependency>
 
+   <!-- Spring框架坐标-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
       <version>5.2.10.RELEASE</version>
+    </dependency>
+
+   <!-- 德鲁伊druid数据源坐标-->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid</artifactId>
+      <version>1.2.16</version>
     </dependency>
   </dependencies>
 

@@ -5,6 +5,6 @@ import com.Zezai.dao.Dao;
 public class DaoImpl implements Dao {
     @Override
     public void daoAction() {
-       // System.out.println("dao action");
+        System.out.println("dao action");
     }
 }

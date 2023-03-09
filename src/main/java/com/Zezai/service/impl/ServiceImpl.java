@@ -11,6 +11,7 @@ public class ServiceImpl implements Service, InitializingBean, DisposableBean {
     public int number;
     @Override
     public void serviceAction() {
+        dao.daoAction();
         }
     //提供对应的set方法,IoC会通过我们写的配置文件<property name="Dao" ref="DaoImpl"></property>,自动将对应的实现类对象daoImpl传入dao内
       //注意:set方法其实在创建容器时就会被调用,所以我们从容器中取出来的service对象其实里面就已经帮我们自动获取了daoImpl这个对象
