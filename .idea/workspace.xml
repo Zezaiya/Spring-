@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b491d9d4-39a3-4b9a-bea9-c5d7f10ff45d" name="变更" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring notes" beforeDir="false" afterPath="$PROJECT_DIR$/Spring核心容器" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/impl/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/impl/DaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/service/impl/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/service/impl/ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring注解开发" beforeDir="false" afterPath="$PROJECT_DIR$/Spring注解开发" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/核心容器App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +60,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Zezai.App" />
+    <configuration name="核心容器App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Zezai.核心容器App" />
       <module name="Spring入门" />
       <extension name="coverage">
         <pattern>
@@ -79,7 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.App" />
+        <item itemvalue="应用程序.核心容器App" />
       </list>
     </recent_temporary>
   </component>
@@ -92,6 +88,21 @@
       <option name="presentableId" value="Default" />
       <updated>1678258633168</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1678345686412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678345686412</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1678345695450</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678345695450</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
