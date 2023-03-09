@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b491d9d4-39a3-4b9a-bea9-c5d7f10ff45d" name="变更" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring核心容器" beforeDir="false" afterPath="$PROJECT_DIR$/Spring核心容器" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring注解开发" beforeDir="false" afterPath="$PROJECT_DIR$/Spring注解开发" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/Dao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/impl/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/impl/DaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/impl/DaoImpl2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/service/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/service/impl/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/service/impl/ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/service/impl/ServiceImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/service/impl/ServiceImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/service/impl/ServiceImpl2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/核心容器App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/核心容器App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/注解开发App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +69,22 @@
       <recent name="E:\IDEA\Spring" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.核心容器App">
     <configuration name="核心容器App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Zezai.核心容器App" />
+      <module name="Spring入门" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Zezai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="注解开发App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Zezai.注解开发App" />
       <module name="Spring入门" />
       <extension name="coverage">
         <pattern>
@@ -79,6 +99,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.核心容器App" />
+        <item itemvalue="应用程序.注解开发App" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678346138417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <created>1678346418063</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678346418063</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,2 +1,13 @@
 注解开发(简化开发)
+->通过注解开发的形式,可以大大减少我们配置文件bean标签的大部分操作
 
+原来:配置文件<bean id="DaoImpl" class="com.Zezai.dao.impl.DaoImpl"/>
+使用注解开发:@Component("DaoImpl")->因为在这个类里,所以就省去了配置class这个步骤,只需要写id就行
+
+方法:在需要配置的类里写上组件标签@Component(),并在配置文件里添加一个<context:component-scan base-package="类所在的位置"/>
+    扫描器,用于容器扫描我们写的组件(注解)即可,注意,basepakage里的参数如果只写com那么他会扫描com包下的所有注解(推荐com.Zezai)
+
+@Component衍生注解
+1.业务层:@Service
+2.数据层:@Repository
+3.表现层:@Controller
