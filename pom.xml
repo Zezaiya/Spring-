@@ -40,7 +40,32 @@
       <artifactId>druid</artifactId>
       <version>1.2.16</version>
     </dependency>
-  </dependencies>
 
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.5.11</version>
+    </dependency>
+
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.31</version>
+    </dependency>
+
+   <!-- spring操作数据库所用的包-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>5.2.10.RELEASE</version>
+    </dependency>
+
+   <!-- mybatis专门用于整合spring所用的jar包-->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-spring</artifactId>
+      <version>3.0.1</version>
+    </dependency>
+  </dependencies>
 
 </project>

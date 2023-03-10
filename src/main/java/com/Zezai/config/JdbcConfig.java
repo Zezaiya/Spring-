@@ -10,13 +10,13 @@ import javax.sql.DataSource;
 public class JdbcConfig {
     //1.定义一个方法获得要管理的对象
     //2.添加@Bean标签,表示当前方法返回的是Bean类型
-    @Value("com.mysql.cj.jdbc.Driver")
+    @Value("${driver}")
     private String driver;
-    @Value("jdbc:mysql://localhost:3306/spring_db")
+    @Value("${url}")
     private String url;
-    @Value("root")
+    @Value("${username}")
     private String username;
-    @Value("123456")
+    @Value("${password}")
     private String password;
     @Bean//方法显示未被调用只是因为我们未主动调用，在启动项目后容器会自动扫描bean标签并调用该方法获取到对象
     public DataSource dataSource(bookDaoImpl bookDao){   //容器扫描bean标签后，会查看方法是否有参数，如果有会从自己的容器里找到相应的对象填入
