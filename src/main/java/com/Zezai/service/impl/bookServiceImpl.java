@@ -2,6 +2,7 @@ package com.Zezai.service.impl;
 
 import com.Zezai.dao.Dao;
 import com.Zezai.service.Service;
+import org.apache.ibatis.annotations.Select;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.ComponentScan;
@@ -29,6 +30,9 @@ public class bookServiceImpl implements Service {
     /*public void setDao(Dao dao) {
         this.dao = dao;
     }*/
+    @Select("select * from tb_brand")
+    public  void selectAll(){
+    }
     @PostConstruct
     public void afterPropertiesSet() {
         System.out.println("init.....");
