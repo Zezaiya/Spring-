@@ -1,6 +1,7 @@
 package com.Zezai.service.impl;
 
 import com.Zezai.dao.Dao;
+import com.Zezai.domain.brand;
 import com.Zezai.service.Service;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.context.annotation.Scope;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
+import java.util.List;
 
 @org.springframework.stereotype.Service("bookServiceImpl")//设置这个类为bean类，取名为bookServiceImpl
 @ComponentScan("com.Zezai")//光设置类不行，必须让容器能找到该bean，所以要添加扫描仪
@@ -30,17 +32,19 @@ public class bookServiceImpl implements Service {
     /*public void setDao(Dao dao) {
         this.dao = dao;
     }*/
-    @Select("select * from tb_brand")
-    public  void selectAll(){
+
+    public List<brand> selectAll(){
+        List<brand> brandInfo=dao.selectAll();
+        return brandInfo;
     }
-    @PostConstruct
+    /*@PostConstruct
     public void afterPropertiesSet() {
         System.out.println("init.....");
     }
     @PreDestroy
     public void destroy() {
         System.out.println("destroy.....");
-    }
+    }*/
 
 
 
