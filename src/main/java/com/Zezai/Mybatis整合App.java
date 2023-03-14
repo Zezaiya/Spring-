@@ -16,7 +16,8 @@ public class Mybatis整合App {
     public static void main(String[] args) {
         ApplicationContext atx=new AnnotationConfigApplicationContext(SpringConfig.class);
         bookServiceImpl service=(bookServiceImpl)atx.getBean("bookServiceImpl");
-        List<brand>brandInfo=service.selectAll();
-        System.out.println(brandInfo);
+        service.serviceAction();
+        //List<brand>brandInfo=service.selectAll();
+        //System.out.println(brandInfo);
     }
 }

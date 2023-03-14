@@ -12,8 +12,20 @@ public class bookDaoImpl implements Dao {
     public List<brand> selectAll() {
         return null;
     }
-
+   // @Override
     public void daoAction() {
-        System.out.println("dao action");
+        System.out.println(System.currentTimeMillis());
+        System.out.println("dao Action");
+    }
+
+    //@Override
+    public void daoAction2() {
+        System.out.println("dao Action2");
+    }
+
+   // @Override
+    public int daoAction3() {
+        System.out.println("dao Action3");
+        return 666;
     }
 }

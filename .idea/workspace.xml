@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b491d9d4-39a3-4b9a-bea9-c5d7f10ff45d" name="变更" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/aop/MyAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring核心容器" beforeDir="false" afterPath="$PROJECT_DIR$/Spring核心容器" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring整合JUnit" beforeDir="false" afterPath="$PROJECT_DIR$/Spring整合JUnit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring核心容器" beforeDir="false" afterPath="$PROJECT_DIR$/Spring核心容器IOC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/AOP入门.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/AOP入门.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/Mybatis整合App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/Mybatis整合App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/config/MybatisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/Dao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/impl/bookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/dao/impl/bookDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Zezai/service/impl/bookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Zezai/service/impl/bookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +39,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Spring核心容器" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Spring核心容器IOC" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,9 +70,9 @@
       <recent name="E:\IDEA\Spring" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Mybatis整合App">
-    <configuration name="核心容器App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Zezai.核心容器App" />
+  <component name="RunManager" selected="应用程序.AOP入门">
+    <configuration name="AOP入门" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Zezai.AOP入门" />
       <module name="Spring入门" />
       <extension name="coverage">
         <pattern>
@@ -157,10 +162,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bookServiceImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring入门" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Zezai.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Zezai.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.Zezai.service.impl.bookServiceImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookServiceImpl.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring入门" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Zezai.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Zezai.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.Zezai.service.impl.bookServiceImpl" />
+      <option name="METHOD_NAME" value="selectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookServiceImpl.serviceAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring入门" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Zezai.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Zezai.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.Zezai.service.impl.bookServiceImpl" />
+      <option name="METHOD_NAME" value="serviceAction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.AOP入门" />
         <item itemvalue="应用程序.Mybatis整合App" />
-        <item itemvalue="应用程序.核心容器App" />
+        <item itemvalue="JUnit.bookServiceImpl.selectAll" />
+        <item itemvalue="JUnit.bookServiceImpl" />
+        <item itemvalue="JUnit.bookServiceImpl.serviceAction" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +340,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678439132042</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="1">
+      <created>1678694960352</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678694960352</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1">
+      <created>1678696916749</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678696916749</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1">
+      <created>1678698485153</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678698485153</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

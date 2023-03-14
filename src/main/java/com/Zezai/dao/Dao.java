@@ -8,5 +8,9 @@ import java.util.List;
 public interface Dao {
     @Select("select * from tb_brand")
     List<brand> selectAll();
+
     void daoAction();
+
+    void daoAction2();
+    int daoAction3();
 }
